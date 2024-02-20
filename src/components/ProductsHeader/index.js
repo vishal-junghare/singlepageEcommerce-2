@@ -1,4 +1,4 @@
-import {BsFilterRight} from 'react-icons/bs'
+import {IoFilter} from 'react-icons/io5'
 
 import './index.css'
 
@@ -12,7 +12,7 @@ const ProductsHeader = props => {
     <div className="products-header">
       <h1 className="products-list-heading">All Products</h1>
       <div className="sort-by-container">
-        <BsFilterRight className="sort-by-icon" />
+        <IoFilter className="sort-by-icon" />
 
         <h1 className="sort-by">Sort by</h1>
         <select
